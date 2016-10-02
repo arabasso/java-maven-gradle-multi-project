@@ -1,0 +1,18 @@
+apply plugin: 'application'
+
+group = 'sk.host.arabasso.app'
+version = '1.0'
+description = 'Java Maven/Gradle multi project application'
+
+mainClassName = 'sk.host.arabasso.app.Application'
+
+dependencies {
+	compile project(':core')
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+	baseName = 'app'
+}
