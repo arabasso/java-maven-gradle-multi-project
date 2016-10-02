@@ -8,10 +8,10 @@
 		<version>1.0</version>
 	</parent>
 
-	<groupId>sk.host.arabasso.app</groupId>
-	<artifactId>app</artifactId>
+	<groupId>sk.host.arabasso</groupId>
+	<artifactId>java-maven-gradle-multi-project.app</artifactId>
 	<version>1.0</version>
-	<name>app</name>
+	<name>java-maven-gradle-multi-project.app</name>
 	<description>Java Maven/Gradle multi project application</description>
 	<url>http://arabasso.host.sk</url>
 	<build>
@@ -43,8 +43,8 @@
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>sk.host.arabasso.core</groupId>
-			<artifactId>core</artifactId>
+			<groupId>sk.host.arabasso</groupId>
+			<artifactId>java-maven-gradle-multi-project.core</artifactId>
 			<version>1.0</version>
 		</dependency>
 	</dependencies>

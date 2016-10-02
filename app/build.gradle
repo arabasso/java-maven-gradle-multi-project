@@ -1,6 +1,6 @@
 apply plugin: 'application'
 
-group = 'sk.host.arabasso.app'
+group = 'sk.host.arabasso'
 version = '1.0'
 description = 'Java Maven/Gradle multi project application'
 
@@ -14,5 +14,5 @@ jar {
     manifest {
         attributes 'Main-Class': mainClassName
     }
-	baseName = 'app'
+	baseName = 'java-maven-gradle-multi-project.app'
 }

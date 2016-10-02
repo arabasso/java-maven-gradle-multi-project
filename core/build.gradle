@@ -1,7 +1,11 @@
-group = 'sk.host.arabasso.core'
+group = 'sk.host.arabasso'
 version = '1.0'
 description = 'Java Maven/Gradle multi project core'
 
 dependencies {
 
+}
+
+jar {
+	baseName = 'java-maven-gradle-multi-project.core'
 }
